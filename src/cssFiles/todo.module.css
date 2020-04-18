@@ -1,0 +1,22 @@
+.tod {
+  animation: ani2 5s ease both;
+}
+.tod1 {
+  animation: ani 10s ease both;
+}
+@keyframes ani {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+@keyframes ani2 {
+  from {
+    transform: translate(100%);
+  }
+  to {
+    transform: translate(0);
+  }
+}

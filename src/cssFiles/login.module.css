@@ -1,0 +1,9 @@
+.ani{background-color: aqua;
+    animation: scaleDown 5s ease both;
+    
+}
+
+@keyframes scaleDown{
+
+    from{opacity: 0;} to{opacity: 90;}
+}
